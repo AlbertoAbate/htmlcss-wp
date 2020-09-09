@@ -1,0 +1,67 @@
+/* General style */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 5px;
+}
+
+#container{
+  padding: 20px 30px;
+  width: 1000px;
+  margin: 30px auto;
+  border: 3px solid black;
+}
+
+main {
+  padding: 10px 0;
+}
+
+main::after {
+  content:'';
+  display: table;
+  clear: both;
+}
+
+/* header */
+header {
+  background-color: yellow;
+  height: 150px;
+  margin: 5px 15;
+}
+
+/* main */
+
+.col {
+  float: left;
+}
+
+.col-left {
+  background-color: #f400a1;
+  width: 20%;
+  height: 280px;
+}
+
+section {
+  background-color: purple;
+  height: 500px;
+  width: 50%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.col-right {
+    background-color: #f400a1;
+    width: 20%;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+/* footer */
+footer {
+  background-color: lightblue;
+  height: 100px;
+}
