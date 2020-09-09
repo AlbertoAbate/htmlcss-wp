@@ -28,7 +28,8 @@ main::after {
   display: table;
   clear: both;
 }
-h2 {
+h2,
+h1 {
   font-family: 'Montserrat', sans-serif;
   color: text-shadow: 2px 2px #FF0000;
 }
@@ -107,13 +108,22 @@ nav li a {
 }
 
 section {
-  background-color: purple;
+  background-color: #fff;
   height: 500px;
   width: 50%;
   margin-left: 5%;
   margin-right: 5%;
 }
-
+.col h1 {
+  text-transform: uppercase;
+}
+.center {
+  margin-top: 30px;
+  margin-left: 10px;
+}
+.center p {
+  margin-top: 30px;
+}
 .col-right {
     background-color: #f400a1;
     width: 20%;
