@@ -122,13 +122,21 @@ section {
   margin-left: 10px;
 }
 .center p {
-  margin-top: 30px;
+  margin-top: 60px;
+  line-height: 50px;
 }
 .col-right {
-    background-color: #f400a1;
+    background-color: #fff;
     width: 20%;
-    height: 200px;
     margin-bottom: 20px;
+}
+.widget h2 {
+  margin-top: 20px;
+  /* margin-bottom: 20px; */
+}
+.widget p {
+  margin-top: 20px;
+  line-height: 25px;
 }
 
 /* footer */
