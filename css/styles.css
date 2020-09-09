@@ -28,6 +28,10 @@ main::after {
   display: table;
   clear: both;
 }
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: text-shadow: 2px 2px #FF0000;
+}
 
 /* header */
 .header-top {
@@ -62,14 +66,46 @@ nav li a {
   color: #fff;
 }
 /* main */
+
+/* col left */
+/* parte titolo e logo */
 .col {
   float: left;
+  border-radius: 5px;
 }
-.col-left {
-  background-color: #f400a1;
+.col-left{
+  background-color: #fff;
   width: 20%;
   height: 280px;
 }
+.title-left::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+.icon {
+  float: left;
+  color: orange;
+
+}
+.themes {
+  float: left;
+}
+.themes h2 {
+  font-size: 1.2em;
+  margin-left: 5px;
+}
+/* parte indirizzi */
+.indirizzi li {
+  line-height: 20px;
+  list-style-type: none;
+  margin-top: 10px;
+}
+.indirizzi li a{
+  text-decoration: none;
+  color: green;
+}
+
 section {
   background-color: purple;
   height: 500px;
